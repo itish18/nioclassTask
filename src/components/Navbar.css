@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1em 3em;
+    border-bottom: 1px solid lightgray;
+}
+
+text{
+    font-size: larger;
+    font-weight: 700;
+}
+
+text:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:425px) {
+    .navbar{
+        padding: 1em 1em;
+    }
+}
+
+img{
+    max-width: 2em;
+    object-fit: cover;
+    margin-right: 3px;
+    cursor: pointer;
+}
